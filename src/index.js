@@ -1,13 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createGlobalStyle } from 'styled-components';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Editor from './rotas/Editor';
+import Comunidade from './rotas/Comunidade';
+import Header from './componentes/Header';
+const GlobalStyle = createGlobalStyle`
+body {
+  margin:0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+  "slnt" <slant>;
+  
+}
+`
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <GlobalStyle />
+    <BrowserRouter>
+    <Header/>
+    <Routes>
+      <Route path='Comunidade' element={<Comunidade />} />
+      <Route path='/' element={<Editor/>}  />
+    </Routes>
+    </BrowserRouter>
+    
   </React.StrictMode>
 );
 
