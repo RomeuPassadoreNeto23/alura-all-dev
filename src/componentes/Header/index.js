@@ -1,9 +1,11 @@
 import styled from "styled-components";
 import Logo from "../Logo";
+import Prefill from "../Perfil";
 
 const HeaderContainer = styled.div`
     display: flex;
     justify-content: space-between;
+    margin: 10px;
     width:1376px;
     height:56px;
     position: fixed;
@@ -38,6 +40,7 @@ function Header() {
         <HeaderContainer>
             <Logo />
             <input placeholder="Busque por algo"  />
+            <Prefill />
         </HeaderContainer>
     )
 
