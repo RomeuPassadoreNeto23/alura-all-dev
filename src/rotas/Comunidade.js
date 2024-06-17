@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import Menu from "../componentes/Menu";
+import Formulario from "../componentes/Formulario";
 
 
 const ComunidadeContainer = styled.div`
@@ -11,6 +13,8 @@ function Comunidade() {
     return (
 
         <ComunidadeContainer>
+            <Menu />
+            
 
         </ComunidadeContainer>
     )

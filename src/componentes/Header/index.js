@@ -5,11 +5,12 @@ import Prefill from "../Perfil";
 const HeaderContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 10px;
     width:1376px;
     height:56px;
-    position: fixed;
-    top: 0;
+    position:fixed;
+    top:32px;
+    z-index:1;
+    left: 32px;
     input {
       width:752px;
       height:56px;

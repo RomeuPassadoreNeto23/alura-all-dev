@@ -6,6 +6,7 @@ const PerfilCantainer = styled.div`
     display: flex;
     align-items: center;
     img {
+        
       width:32px;
       height:32px;
       border-radius:100%;
@@ -13,10 +14,10 @@ const PerfilCantainer = styled.div`
 
     }
     h1 {
+
         font-size: 16px;
         font-weight:400;
         color:rgba(255, 255, 255, 1);
-
 
     }
 
