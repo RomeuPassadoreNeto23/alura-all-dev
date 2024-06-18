@@ -14,6 +14,7 @@ function Editor() {
     return (
         <EditorContainer>
             <Menu/>
+            <Formulario />
             
 
         </EditorContainer>

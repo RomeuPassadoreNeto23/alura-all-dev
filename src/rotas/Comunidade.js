@@ -14,6 +14,7 @@ function Comunidade() {
 
         <ComunidadeContainer>
             <Menu />
+            <Formulario />
             
 
         </ComunidadeContainer>
