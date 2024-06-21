@@ -12,7 +12,8 @@ const HeaderContainer = styled.div`
     z-index:1;
     left: 32px;
     input {
-      width:752px;
+      width:744px;
+      padding: 0 14px 0 14px;
       height:56px;
       border-radius: 8px;
       border-style: none;

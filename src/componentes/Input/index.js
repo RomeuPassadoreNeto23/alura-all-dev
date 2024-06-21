@@ -22,7 +22,7 @@ export const Input = styled.input`
         color:rgba(255, 255, 255, 1);
         font-size: 16px;
         font-weight:400;
-        opacity: 64%;
+        opacity:64%;
 
         }
 
